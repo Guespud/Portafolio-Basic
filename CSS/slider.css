@@ -1,0 +1,47 @@
+.slider-menu{
+    max-width: 100%;
+    max-height: 20%;
+    background: #FF5672;
+    padding: 150px 100px;
+    text-align: center;
+}
+.slider-menu h2 {
+    color: #FFFFFF;
+    margin: 20px;
+    font-size: 40px;
+}
+.slider-menu p {
+    color: #FFFFFF;
+    margin: 20px;
+    font-size: 16px;
+}
+.slider-menu button {
+    color: #FF5773;
+    background: #FFFFFF;
+    padding: 10px 30px;
+    margin: 20px;
+    border: none;
+}
+
+.slider-menu button:hover {
+    background: #6b6b6b;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .btn-portfolio{
+    color: #FFFFFF;
+    background: #FF5773;
+    padding: 10px 30px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-portfolio:hover {
+    background: #6b6b6b;
+    color: #fff;
+    cursor: pointer;
+  }
+  .btn-more{
+      text-align: center;
+  }
