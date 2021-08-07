@@ -1,3 +1,4 @@
+
 .slider-menu{
     max-width: 100%;
     max-height: 20%;
@@ -5,10 +6,18 @@
     padding: 150px 100px;
     text-align: center;
 }
+@media all and (min-width: 200px) {
+    
+    .slider-menu{
+        padding: 138px 0px;
+    }
+}
+
 .slider-menu h2 {
     color: #FFFFFF;
     margin: 20px;
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: 700;
 }
 .slider-menu p {
     color: #FFFFFF;
@@ -18,7 +27,7 @@
 .slider-menu button {
     color: #FF5773;
     background: #FFFFFF;
-    padding: 10px 30px;
+    padding: 15px 30px;
     margin: 20px;
     border: none;
 }
@@ -32,8 +41,8 @@
   .btn-portfolio{
     color: #FFFFFF;
     background: #FF5773;
-    padding: 10px 30px;
-    margin: 20px;
+    padding: 15px 30px;
+    margin: 80px;
     border: none;
     cursor: pointer;
   }
@@ -44,4 +53,14 @@
   }
   .btn-more{
       text-align: center;
+  }
+
+  .button-logic button{
+      border: none;
+      margin: 10px;
+      cursor: pointer;
+  }
+
+  .footer-links-social img{
+      margin: 20px 10px 50px 10px;
   }

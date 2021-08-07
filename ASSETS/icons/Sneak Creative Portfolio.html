@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://relaxed-stonebraker-e1b798.netlify.app/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./Sneak Creative Portfolio_files/styles.css">
+    <!-- Fonts -->
+    <link href="./Sneak Creative Portfolio_files/css2" rel="stylesheet">
+    <!-- Icons-->
+    <link href="./Sneak Creative Portfolio_files/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Sneak Creative Portfolio</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="body">
+        <nav>
+            <!-- NAVBAR LEFT-->
+            <div class="logo"> 
+                <img src="./Sneak Creative Portfolio_files/Logo.png" alt="">
+            </div>
+            <!-- NAVBAR RIGHT-->
+            <div class="nav-right">
+                <ul class="nav-elements">
+                    <li class="active"><a href="https://relaxed-stonebraker-e1b798.netlify.app/#">All</a></li>
+                    <li><a class="nav-element" href="https://relaxed-stonebraker-e1b798.netlify.app/#">Branding</a></li>
+                    <li><a class="nav-element" href="https://relaxed-stonebraker-e1b798.netlify.app/#">Web</a></li>
+                    <li><a class="nav-element" href="https://relaxed-stonebraker-e1b798.netlify.app/#">Photography</a></li>
+                    <li><a class="nav-element" href="https://relaxed-stonebraker-e1b798.netlify.app/#">App</a></li>
+                    <img class="search-icon" src="./Sneak Creative Portfolio_files/Search Icon.png" alt="">
+                    
+                </ul>
+            </div>
+            <div class="burger">
+                <i class="fa fa-bars" aria-hidden="true"></i>            
+            </div>
+        </nav>
+    </div>
+    <!-- HEADER-->
+    <header class="header">
+        <div class="landing">
+            <h1>EXPLORE BEYOND HORIZON</h1>
+            <p>Magna mundi referrentur quo, no rebum dignissim qui.</p>
+            <p>Per quodsi accusata id, agam labores.</p>
+            <button class="btn">VIEW OUR WORK</button>
+        </div>
+    </header>
+    <!-- Portafolio Menu-->
+    <section class="section">
+        <div class="navigation">
+            <div class="navigation-icons">
+                <img src="./Sneak Creative Portfolio_files/Block Icon.png" alt="">
+                <img src="./Sneak Creative Portfolio_files/Column Icon.png" alt="">
+            </div>
+            <div class="navigation-menu">
+                <ul class="nav-elements2">
+                    <li class="active"><a onclick="searchPhotos" id="all">All</a></li>
+                    <li><a href="https://relaxed-stonebraker-e1b798.netlify.app/#">Branding</a></li>
+                    <li><a href="https://relaxed-stonebraker-e1b798.netlify.app/#">Web</a></li>
+                    <li><a href="https://relaxed-stonebraker-e1b798.netlify.app/#">Photography</a></li>
+                    <li><a href="https://relaxed-stonebraker-e1b798.netlify.app/#">App</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <!-- Portafolio-->
+    <div class="section">
+        <div class="portfolio">
+                <div class="box"><img id="" src="./Sneak Creative Portfolio_files/img-1.jpg" alt=""></div>
+                
+                <div class="box"><img id="" src="./Sneak Creative Portfolio_files/img-2.jpg" alt=""></div>
+                
+                <div class="box"><img id="" src="./Sneak Creative Portfolio_files/img-3.jpg" alt=""></div>
+                
+                <div class="box"><img id="" src="./Sneak Creative Portfolio_files/img-4.jpg" alt=""></div>
+                
+                <div class="box"><img id="" src="./Sneak Creative Portfolio_files/img-5.jpg" alt=""></div>
+                
+                <div class="box"><img id="" src="./Sneak Creative Portfolio_files/img-6.jpg" alt=""></div>
+                
+                <div class="box"><img id="" src="./Sneak Creative Portfolio_files/img-7.jpg" alt=""></div>
+                
+                <div class="box"><img id="" src="./Sneak Creative Portfolio_files/img-8.jpg" alt=""></div>
+                
+                <div class="box"><img id="" src="./Sneak Creative Portfolio_files/img-9.jpg" alt=""></div>
+                
+                <div class="box"><img id="" src="./Sneak Creative Portfolio_files/img-10.jpg" alt=""></div>
+                </div>
+    </div>
+    <div class="section">
+        <button class="btn">Show Me More</button>
+    </div>
+    <!-- Footer-->
+    <footer class="section">
+        <div class="copyright">© 2016 - <span>Sneak</span> All Right Reserved</div>
+        <div class="social-icons">
+            <img src="./Sneak Creative Portfolio_files/Facebook.png" alt="">
+            <img src="./Sneak Creative Portfolio_files/Tweeter.png" alt="">
+            <img src="./Sneak Creative Portfolio_files/Dribble.png" alt="">
+            <img src="./Sneak Creative Portfolio_files/Google .png" alt="">
+            <img src="./Sneak Creative Portfolio_files/Youtube.png" alt="">
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="./Sneak Creative Portfolio_files/app.js"></script>
+    <script src="./Sneak Creative Portfolio_files/images.json"></script>
+    <script>
+      
+
+            let res = document.querySelector(".portfolio");
+            res.innerHTML = '';
+
+            for (let item of images){
+                
+                res.innerHTML += `
+                <div class="box"><img id="" src="${item.url}" alt=""></div>
+                `
+            }
+        
+    </script>
+
+
+</body></html>
